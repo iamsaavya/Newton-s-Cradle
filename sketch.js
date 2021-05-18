@@ -66,7 +66,7 @@ function keyPressed(){
 
 	if(keyCode === 32){
 		//Matter.body.setStatic(bob2.body, false)
-		Matter.Body.applyForce(bob3.body, bob2.body.position, {x : -1000, y : 0})
+		Matter.Body.applyForce(bob3.body, bob2.body.position, {x : -2500, y : 0})
 
 	}
 }
