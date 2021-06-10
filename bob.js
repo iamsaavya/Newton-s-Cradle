@@ -9,9 +9,6 @@ class bob{
         }
         this.body = Bodies.circle(x,y, 40, options)
 
-        this.width = width
-        this.height = height
-
         World.add(world, this.body)
 
     }
